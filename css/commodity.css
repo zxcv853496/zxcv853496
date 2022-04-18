@@ -1,0 +1,269 @@
+@import url("reset.css");
+body{
+    line-height: 1.2;
+    font-size: 24px;
+    color: white;
+}
+#wrapper{
+    width: 1440px;
+    margin: 0 auto;
+
+    position: relative;
+}
+/* -- header -- */
+header{
+    background-image: url("../index-image/top\(1440x145\)-02.jpg");
+    height: 146px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    display: block;
+    width: 86px;
+    height: 100px;
+    margin-left: 80px;
+}
+header ul{
+    display: flex;
+    width: 615px;
+    align-items: center;
+    margin-left: auto;
+
+    margin-right: 100px;
+}
+header li{
+    flex-grow: 1;
+    position: relative;
+    margin: 0 auto;
+}
+header li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+header li a:hover{
+
+}
+header li::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li:nth-last-child(2)::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li img{
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+header li:nth-last-child(1){
+    flex-grow: 0;
+}
+/* -- nav -- */
+nav{
+    background-image: url("../about-image/1440x800.jpg");
+    display: block;
+    height: 800px;
+}
+nav h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 260px;
+    letter-spacing: 10px;
+}
+/* -- main -- */
+main{
+    background-image: url("../about-image/1188x1670.jpg");
+    width: 1188px;
+    height: 1670px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 600px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+main .main-top{
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+.main-top ul{
+    display: flex;
+    position: relative;
+}
+.main-top .lef{
+    position: absolute;
+    left: 0;
+}
+.main-top .rig{
+    position: absolute;
+    right: 0;
+}
+.main-top h2{
+    text-align: center;
+    margin: 20px auto;
+}
+.main-top .lef img{
+    display: block;
+    height: 345px;
+    height: 345px;
+}
+.main-top .rig img{
+    display: block;
+    height: 345px;
+}
+main .main-middle{
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 650px;
+}
+main .main-middle img{
+    display: block;
+    height: 345px;
+}
+main .main-middle h2{
+    font-size: 24px;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+main .main-buttom{
+    margin: 0 auto;
+    width: 1130px;
+    padding-top: 80px;
+}
+.main-buttom ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main-buttom ul li{
+
+}
+.main-buttom ul img{
+    display: block;
+    height: 345px;
+    width: 345px;
+}
+.main-buttom ul h2{
+    text-align: center;
+    margin-top: 20px;
+}
+/* -- footer -- */
+footer{
+    background-image: url("../index-image/footer\(1440x200\).jpg");
+    height: 200px;
+    display: flex;
+    margin-top: 1400px;
+    position: relative;
+}
+footer img{
+    display: block;
+    height: 86px;
+    width: 86px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+}
+footer h3{
+    color: white;
+    font-size: 24px;
+    line-height: 200px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 220px;
+    margin: auto;
+}
+footer ul{
+    display: flex;
+    width: 185px;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+}
+footer ul li{
+    border: 2px solid white;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+}
+footer ul li img{
+    display: block;
+}
+footer .img-1{
+    width: 28px;
+    height: 21px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-2{
+    width: 12px;
+    height: 28px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-3{
+    width: 26px;
+    height: 24px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

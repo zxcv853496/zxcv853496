@@ -1,0 +1,331 @@
+@import url("reset.css");
+body{
+
+}
+#wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* -- header -- */
+header{
+    background-image: url("../index-image/top\(1440x145\)-02.jpg");
+    height: 146px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    display: block;
+    width: 86px;
+    height: 100px;
+    margin-left: 80px;
+}
+header ul{
+    display: flex;
+    width: 615px;
+    align-items: center;
+    margin-left: auto;
+
+    margin-right: 100px;
+}
+header li{
+    flex-grow: 1;
+    position: relative;
+    margin: 0 auto;
+}
+header li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+header li a:hover{
+
+}
+header li::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li:nth-last-child(2)::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li img{
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+header li:nth-last-child(1){
+    flex-grow: 0;
+}
+/* -- 輪播大圖 -- */
+
+  
+/* -- 中間圖文-- */
+.coss{
+    display: flex;
+    width: 1188px;
+    height: 720px;
+    margin: 0 auto;
+
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+.coss img{
+    display: block;
+}
+.coss-1{
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+}
+.coss-2{
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    top: -65px;
+}
+.coss .hhh{
+    display: flex;
+    height: 460px;
+    margin: 0 auto;
+}
+.coss h2{
+    font-size: 60px;
+    color: rgb(153, 119, 86);
+
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* -- 輪播五張圖文-- */
+.boss{
+    background-image: url("../index-image/輪播bgi\(1440x580\).jpg");
+    height: 580px;
+
+}
+.boss ul{
+    display: flex;
+    height: 580px;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+}
+.boss ul li{
+    margin-right: 10px;
+}
+.boss ul img{
+    display: block;
+}
+/* -- article -- */
+article{
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    align-items: center;
+
+    
+    position: relative;
+}
+article img{
+    display: block;
+    width: 550px;
+    height: 345px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    left: 130px;
+}
+article .po{
+    width: 580px;
+    height: 230px;
+
+    position: absolute;
+    right: 130px;
+}
+article .po p{
+    font-size: 24px;
+    color: rgb(153, 119, 86);
+    line-height: 1.6;
+    text-align: center;
+}
+/* -- 更多商品 -- */
+.commodity{
+    background-image: url("../index-image/輪播bgi\(1440x580\).jpg");
+    display: block;
+    height: 580px;
+}
+.commodity ul{
+    display: flex;
+    width: 1188px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.commodity li{
+    margin-top: 50px;
+}
+.commodity li img{
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.commodity li div{
+    background-color: white;
+    border-radius: 30px;
+    width: 170px;
+    height: 43px;
+    margin: 0 auto;
+}
+.commodity li p{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 2;
+    color: rgb(153, 119, 86);
+}
+/* -- detail -- */
+.detail{
+    height: 470px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.detail img{
+    display: block;
+    width: 570px;
+    height: 380px;
+
+    position: absolute;
+    left: 200px;
+}
+.detail div{
+    width: 500px;
+    height: 280px;
+    background-color: rgb(117, 90, 63);
+    padding: 30px;
+    box-sizing: border-box;
+
+    position: absolute;
+    right: 200px;
+}
+.detail p{
+    font-size: 24px;
+    line-height: 1.6;
+    color: white;
+}
+/* -- footer -- */
+footer{
+    background-image: url("../index-image/footer\(1440x200\).jpg");
+    height: 200px;
+    display: flex;
+
+    position: relative;
+}
+footer img{
+    display: block;
+    height: 86px;
+    width: 86px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+}
+footer h3{
+    color: white;
+    font-size: 24px;
+    line-height: 200px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 220px;
+    margin: auto;
+}
+footer ul{
+    display: flex;
+    width: 185px;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+}
+footer ul li{
+    border: 2px solid white;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+}
+footer ul li img{
+    display: block;
+}
+footer .img-1{
+    width: 28px;
+    height: 21px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-2{
+    width: 12px;
+    height: 28px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-3{
+    width: 26px;
+    height: 24px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
